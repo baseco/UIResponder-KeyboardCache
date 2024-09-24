@@ -16,8 +16,8 @@ let package = Package(
         .target(
             name: "UIResponderKeyboardCache",
             path: ".",
-            publicHeadersPath: ".",
-            sources: ["UIResponder+KeyboardCache.h", "UIResponder+KeyboardCache.m"]
+            sources: ["UIResponder+KeyboardCache.h", "UIResponder+KeyboardCache.m"],
+            publicHeadersPath: "."
         ),
     ],
     swiftLanguageVersions: [.v5]
